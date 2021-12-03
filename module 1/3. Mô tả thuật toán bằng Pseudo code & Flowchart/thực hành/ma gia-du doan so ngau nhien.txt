@@ -1,0 +1,9 @@
+Begin
+ Input N ngau nhien tu 0-9
+ Input M
+ IF N<>M
+  Display " du doan sai"
+ ELSE 
+  Display " du doan dung"
+ END IF
+End
