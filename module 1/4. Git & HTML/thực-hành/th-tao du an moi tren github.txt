@@ -1,0 +1,7 @@
+git init: để khởi tạo Repository mới
+git remote and origin + đường dẫn của Repository: để kết nối tới Remote Repository.
+git add + file: để đưa file đó vào trong chỉ mục của git.
+git commit -m"": để lưu lại các thay đổi
+git push origin main: để đẩy các thay đổi ở Local Repository lên trên Remote Repository.
+
+Link vừa tạo: https://github.com/lehungson0510/my-new-project

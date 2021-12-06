@@ -1,0 +1,2 @@
+-ý nghĩa: sao chép Repository có sẵn.
+-câu lệnh: git clone.
