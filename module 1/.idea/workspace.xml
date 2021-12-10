@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fab6a97-81ef-4476-b611-859265c1872d" name="Default Changelist" comment="" />
+    <list default="true" id="3fab6a97-81ef-4476-b611-859265c1872d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Git &amp; HTML/thực-hành/th-tao form co ban.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Git &amp; HTML/thực-hành/th-tao form tim kiem coccoc.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +65,8 @@
       <workItem from="1638799941453" duration="14000" />
       <workItem from="1638887393498" duration="2405000" />
       <workItem from="1638955301875" duration="13427000" />
-      <workItem from="1639063421839" duration="7231000" />
+      <workItem from="1639063421839" duration="8523000" />
+      <workItem from="1639103729296" duration="7226000" />
     </task>
     <servers />
   </component>
@@ -81,6 +86,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="395" y="117" key="#Inspections" timestamp="1639107992143">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="117" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1639107992143" />
     <state x="548" y="180" key="FileChooserDialogImpl" timestamp="1638799951919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
