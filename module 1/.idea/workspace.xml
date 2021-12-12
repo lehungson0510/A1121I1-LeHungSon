@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fab6a97-81ef-4476-b611-859265c1872d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Git &amp; HTML/thực-hành/th-tao form co ban.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Git &amp; HTML/thực-hành/th-tao form tim kiem coccoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. HTML Form &amp; Table/bài tập/bt-tao form don gian-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/5. HTML Form &amp; Table/bài tập/bt-tao form don gian-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. HTML Form &amp; Table/bài tập/bt-tao form don gian-2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,7 +68,15 @@
       <workItem from="1638887393498" duration="2405000" />
       <workItem from="1638955301875" duration="13427000" />
       <workItem from="1639063421839" duration="8523000" />
-      <workItem from="1639103729296" duration="7226000" />
+      <workItem from="1639103729296" duration="10118000" />
+      <workItem from="1639132265393" duration="8962000" />
+      <workItem from="1639158616237" duration="155000" />
+      <workItem from="1639198140212" duration="3385000" />
+      <workItem from="1639257301466" duration="54000" />
+      <workItem from="1639293179722" duration="9837000" />
+      <workItem from="1639303439755" duration="6353000" />
+      <workItem from="1639312883172" duration="2916000" />
+      <workItem from="1639318933000" duration="5632000" />
     </task>
     <servers />
   </component>
@@ -94,5 +104,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="180" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638799951919" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639319094811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1639319094811" />
   </component>
 </project>
