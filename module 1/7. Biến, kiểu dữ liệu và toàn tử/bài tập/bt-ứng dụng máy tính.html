@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+    <h1>Caculator</h1>
+    <input type="text" size="30px" id="start">
+    <input type="text" size="30px" id="end"><br><br>
+    <button onclick="Add()"  >Addition(+)</button>
+    <button onclick="Sub()"  >Subtraction(-)</button>
+    <button onclick="Mul()"  >Multiplication(X)</button>
+    <button onclick="Div()"  >Division(/)</button><br><br>
+    <span>Result&nbsp;</span><span id="result"> </span>
+<script>
+    function Add() {
+        let a= document.getElementById('start').value;
+        let b= document.getElementById('end').value;
+        let c=parseInt(a)+parseInt(b);
+        document.getElementById('result').innerText="Addition:"+" "+  c;
+    }
+    function Sub() {
+        let a= document.getElementById('start').value;
+        let b= document.getElementById('end').value;
+        let c=parseInt(a)-parseInt(b);
+        document.getElementById('result').innerText="Subtraction:"+" "+  c;
+    }
+    function Mul() {
+        let a= document.getElementById('start').value;
+        let b= document.getElementById('end').value;
+        let c=parseInt(a)*parseInt(b);
+        document.getElementById('result').innerText= "Multiplication:"+" "+ c;
+    }
+    function Div() {
+        let a= document.getElementById('start').value;
+        let b= document.getElementById('end').value;
+        let c=parseInt(a)/parseInt(b);
+        document.getElementById('result').innerText= "Division:"+" "+ c;
+    }
+</script>
+
+</body>
+</html>

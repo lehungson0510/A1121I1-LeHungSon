@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ứng dụng chuyển đổi tiền tệ</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+<table style="width: 60%" >
+    <tr align="left">
+        <th><label  for="amount">Amount</label></th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr >
+        <td><input type="text" size="25px" name="amount" id="amount">
+        </td>
+        <td>
+            <select id="select1">
+                <option value="1">VND</option>
+                <option value="23010">USD</option>
+                <option value="202.65">Japan</option>
+            </select>
+        </td>
+        <td>
+            <select id="select2">
+                <option value="1">VND</option>
+                <option value="23010">USD</option>
+                <option value="202.65">Japan</option>
+            </select>
+        </td>
+        <td><button onclick="doiTien()" style=" background-color: darkviolet; color: white">convert</button></td>
+    </tr>
+    <tr><td><span style="color:blue">Result: </span> <span style="color: blue"  id="soTienDaDoi"></span></td></tr>
+
+</table>
+
+<script>
+    function doiTien() {
+        let giaTriVao=document.getElementById("amount").value;
+        let select1=document.getElementById('select1').value;
+        let select2=document.getElementById('select2').value;
+        let a=(giaTriVao*select1)/select2;
+        if (select2 =="23010") document.getElementById('soTienDaDoi').innerText = a + " $";
+        if (select2 =="202.65") document.getElementById('soTienDaDoi').innerText=a +" Yen";
+        if (select2 =="1") document.getElementById('soTienDaDoi').innerText=a +" VND";
+    }
+</script>
+</body>
+</html>
