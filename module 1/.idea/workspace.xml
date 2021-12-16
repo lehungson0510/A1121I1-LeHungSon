@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3fab6a97-81ef-4476-b611-859265c1872d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. HTML Form &amp; Table/thực hành/th-tao form co ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/5. HTML Form &amp; Table/thực hành/th-tao form co ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/bài tập/bt-ứng dụng chuyển đổi tiền tệ.html" beforeDir="false" afterPath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/bài tập/bt-ứng dụng chuyển đổi tiền tệ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/thực hành/th-toan tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/thực hành/th-toan tu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,11 @@
       <workItem from="1639478239054" duration="794000" />
       <workItem from="1639479115232" duration="7806000" />
       <workItem from="1639494155404" duration="3623000" />
-      <workItem from="1639503447695" duration="1993000" />
+      <workItem from="1639503447695" duration="3253000" />
+      <workItem from="1639568983692" duration="2522000" />
+      <workItem from="1639583058747" duration="2000" />
+      <workItem from="1639652837121" duration="12312000" />
+      <workItem from="1639669395625" duration="1554000" />
     </task>
     <servers />
   </component>
