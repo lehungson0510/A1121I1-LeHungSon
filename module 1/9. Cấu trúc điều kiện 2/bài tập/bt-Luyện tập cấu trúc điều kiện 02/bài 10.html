@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính giá tiền điện</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--
+    50kWh đầu       : 1678đồng/kWh
+    50kWh tiếp theo : 1734đồng/kWh
+    50kWh tiếp theo : 2014đồng/kWh
+    100kWh tiếp theo: 2536đồng/kWh
+    100kWh tiếp theo: 2834đồng/kWh
+    sau 350kWh      : 2927đồng/kWh
+Thuế GTGT: 10% tiền điện -->
+
+<script>
+    let kWh=parseInt(prompt('nhập lượng điện tiêu thụ kWh?'))
+    if (kWh<=50){
+       let tienChuaThue = kWh*1678;
+       let tienDaThue= tienChuaThue+tienChuaThue*10/100;
+       document.write('Tiền điện là: '+ tienDaThue+'VND')
+    }
+    else if (kWh<=100){
+        let tienChuaThue = 50*1678 + (kWh-50)*1734;
+        let tienDaThue= tienChuaThue+tienChuaThue*10/100;
+        document.write('Tiền điện là: '+ tienDaThue+'VND')
+    }
+    else if (kWh<=150){
+        let tienChuaThue = 50*1678 + (kWh-100)*2014 + 50*1734;
+        let tienDaThue= tienChuaThue+tienChuaThue*10/100;
+        document.write('Tiền điện là: '+ tienDaThue+'VND')
+    }
+    else if (kWh<=250){
+        let tienChuaThue = 50*1678 +50*1734 + 50*2014 +(kWh-150)*2536 ;
+        let tienDaThue= tienChuaThue+tienChuaThue*10/100;
+        document.write('Tiền điện là: '+ tienDaThue+'VND')
+    }
+    else if (kWh<=350){
+        let tienChuaThue = 50*1678 +50*1734 + 50*2014 +100*2536 + (kWh-250)*2834;
+        let tienDaThue= tienChuaThue+tienChuaThue*10/100;
+        document.write('Tiền điện là: '+ tienDaThue+'VND')
+    }
+    else { let tienChuaThue = 50*1678 +50*1734 + 50*2014 +100*2536+100*2834 +(kWh-350)*2927
+           let tienDaThue= tienChuaThue+tienChuaThue*10/100;
+           document.write('Tiền điện là: '+ tienDaThue+'VND')
+    }
+</script>

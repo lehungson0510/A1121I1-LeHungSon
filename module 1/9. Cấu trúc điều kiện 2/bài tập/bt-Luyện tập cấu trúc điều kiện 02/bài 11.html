@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính thuế thu nhập cá nhân</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- 15% thuế thu nhập nếu lương >15triệu
+     10% thuế thu nhập nếu lương từ 10 - <15triệu
+     5% thuế thu nhập nếu lương từ 6 - <10triệu
+     0%  thuế thu nhập nếu lương dưới 6triệu
+-->
+<script>
+    let luong=parseInt(prompt('so luong/thang (triệu đồng) ='));
+    if(luong< 6) document.write('thuế thu nhập cá nhân là: 0 vnd');
+    else if(luong <10) document.write('thuế thu nhập cá nhân là: ' + luong*1000000*5/100 + ' vnd');
+    else if(luong <15) document.write('thuế thu nhập cá nhân là: ' + luong*1000000*10/100 + ' vnd');
+    else  document.write('thuế thu nhập cá nhân là: ' + luong*1000000*15/100 + ' vnd');
+</script>

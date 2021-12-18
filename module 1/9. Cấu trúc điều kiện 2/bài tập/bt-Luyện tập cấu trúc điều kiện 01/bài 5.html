@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 5: Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ -->
+<script>
+    let a=parseInt(prompt('nhap diem bt'));
+    let b=parseInt(prompt('nhap diem gk'));
+    let c=parseInt(prompt('nhap diem ck'));
+    let dtb= (a*2 + b*2 + c*6)/10;
+    if (dtb<4) alert('dtb= '+dtb+' -> học lực loại F');
+    else if (dtb<5) alert('dtb= '+ dtb+' ->h ọc lực loại D');
+    else if (dtb <5.5) alert('dtb= '+dtb+' -> học lực loại D+');
+    else if (dtb <6.5) alert('dtb= '+dtb+' -> học lực loại C');
+    else if (dtb <7) alert('dtb= '+dtb+' -> học lực loại C+');
+    else if (dtb <8) alert('dtb= '+dtb+' -> học lực loại B');
+    else if (dtb <8.5) alert('dtb= '+dtb+' -> học lực loại B+');
+    else if (dtb <9.5) alert('dtb= '+dtb+' -> học lực loại A');
+    else alert('dtb= '+dtb+' -> học lực loại A+')
+</script>

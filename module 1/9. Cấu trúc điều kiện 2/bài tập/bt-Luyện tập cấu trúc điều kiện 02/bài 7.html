@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giải pt bậc 2</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let a=parseInt(prompt('nhập hệ số a'))
+    let b=parseInt(prompt('nhập hệ số b'))
+    let c=parseInt(prompt('nhập hệ số c'))
+    if (a==0) {
+        if (b == 0) {
+            if(c==0) document.write('pt có vô số nghiệm');
+            else document.write('pt vô nghiệm');
+        }
+        else document.write('pt có nghiệm x ='+ -c/b);
+    }
+    else {
+        let delta= Math.pow(b,2)-4*a*c;
+        if (delta < 0) document.write('pt vô nghiệm' );
+        else if ( delta ==0) document.write('pt có nghiệm kép x= '+ (-b/(2*a)));
+        else
+            x1= (-b+Math.sqrt(delta))/(2*a);
+            x2= (-b-Math.sqrt(delta))/(2*a);
+            document.write('pt có 2 nghiệm phân biệt: <br> x1= ' + x1, '<br> x2= '+x2)
+    }
+
+</script>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu lệnh Switch-case</title>
+</head>
+<body>
+<input type="text" size="20px" id="month">
+<button onclick="soNgay()" value="Tính số ngày" id="tinh">Tính số ngày</button>
+<p id="hienThiSoNgay"></p>
+
+<script>
+ function soNgay() {
+     let a= parseInt(document.getElementById('month').value);
+     switch (a) {
+         case 1:
+         case 3:
+         case 5:
+         case 7:
+         case 8:
+         case 10:
+         case 12:
+             document.getElementById('hienThiSoNgay').innerHTML= 'Tháng '+a+' có 31 ngày';
+             break;
+         case 2:
+             document.getElementById('hienThiSoNgay').innerHTML= 'Tháng '+a+' có 28 hoặc 29 ngày';
+             break;
+         case 4:
+         case 6:
+         case 9:
+         case 11:
+             document.getElementById('hienThiSoNgay').innerHTML= 'Tháng '+a+' có 30 ngày';
+             break;
+
+     }
+
+ }
+
+</script>
+</body>
+</html>

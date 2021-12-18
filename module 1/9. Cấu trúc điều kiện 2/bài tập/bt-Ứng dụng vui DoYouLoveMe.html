@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DoYouLoveMe</title>
+    <style>
+        .no{
+            position: absolute;
+            color: #7afa5a;
+            font-size: 25px;
+            height: 50px;
+            width: 100px;
+    }
+        .yes{
+            color: #fa9666;
+            font-size: 25px;
+            height: 50px;
+            width: 100px;
+        }
+        h1{
+            font-size: 40px;
+            color:#fa80ed
+        }
+        .img{
+            font-size: 30px;
+            text-align: center;
+            color: #fa80ed;
+        }
+    </style>
+</head>
+<body>
+
+<table align="center" >
+    <tr>
+        <th >
+            <h1    id="love">Do you love me?</h1>
+        </th>
+    </tr>
+    <tr >
+        <td ><input class="yes" type="button" id="yes" value="YES" onclick="yes()" /> &nbsp;
+            <input class="no" type="button" id="no" value="NO" onmouseover="no()" /><br>
+        </td>
+    </tr>
+</table>
+<span id="ok" ></span>
+
+<script>
+    function yes() {
+        document.getElementById('ok').innerHTML='<p  class="img" >:3</p><img src="https://i.pinimg.com/originals/3a/41/07/3a4107fdf3823baa7268a9e1a918b94b.jpg" width="500" height="500" style="position: absolute; " >'
+
+    }
+    function no() {
+        let a = Math.random() * window.innerWidth;
+        let b = Math.random() * window.innerHeight;
+        document.getElementById("no").style.left = a + "px";
+        document.getElementById("no").style.top = b + "px";
+    }
+</script>
+</body>
+</html>

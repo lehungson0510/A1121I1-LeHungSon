@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 6: Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng
+Ví dụ: Hoá đơn có giá trị
+      - Từ 0-200k vnd có phần trăm hoa hồng là 3%
+      - Từ 200k-500k vnd có hoa hồng là 5%
+      - Từ 500k vnd trở lên có hoa hồng là 10%
+-->
+<script>
+    let money=parseInt(prompt('nhap gia tri hoa don ban dươc'))
+    let commission;
+    if (money <=200000) commission= money*3/100;
+    else if (money<=500000) commission= 200000*3/100 + (money-200000)*5/100;
+    else commission=200000*3/100 + (300000)*5/100 + (money-500000)*10/100;
+    alert('commision= ' +commission +'vnd');
+</script>

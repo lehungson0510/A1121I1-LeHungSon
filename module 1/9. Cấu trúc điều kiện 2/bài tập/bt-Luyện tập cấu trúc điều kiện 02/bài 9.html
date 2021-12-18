@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiểm tra xem có phải là 3 cạnh tam giác không</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let a=parseInt(prompt('nhập cạnh a'));
+    let b=parseInt(prompt('nhập cạnh b'));
+    let c=parseInt(prompt('nhập cạnh c'));
+    if ((a>0)&&(b>0)&&(c>0)&&(a+b>c)&&(a+c>b)&&(b+c>a))document.write(a+' '+b,' '+c,' là chiều dài 3 cạnh của tam giác');
+    else document.write(a+' '+b,' '+c,' không phải là chiều dài 3 cạnh của tam giác')
+</script>

@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3fab6a97-81ef-4476-b611-859265c1872d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. HTML Form &amp; Table/thực hành/th-tao form co ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/5. HTML Form &amp; Table/thực hành/th-tao form co ban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/bài tập/bt-ứng dụng chuyển đổi tiền tệ.html" beforeDir="false" afterPath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/bài tập/bt-ứng dụng chuyển đổi tiền tệ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/thực hành/th-toan tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/thực hành/th-toan tu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/bài tập/bt-Biến, kiểu dữ liệu và toán tử 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/bài tập/bt-Biến, kiểu dữ liệu và toán tử 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8. Cấu trúc điều kiện 1/thực hành/th-luyện tập với cấu trúc switch-case 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/8. Cấu trúc điều kiện 1/thực hành/th-luyện tập với cấu trúc switch-case 3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,15 @@
       <workItem from="1639568983692" duration="2522000" />
       <workItem from="1639583058747" duration="2000" />
       <workItem from="1639652837121" duration="12312000" />
-      <workItem from="1639669395625" duration="1554000" />
+      <workItem from="1639669395625" duration="1699000" />
+      <workItem from="1639724292197" duration="596000" />
+      <workItem from="1639738373404" duration="7738000" />
+      <workItem from="1639752771719" duration="93000" />
+      <workItem from="1639802992327" duration="3514000" />
+      <workItem from="1639806548439" duration="10751000" />
+      <workItem from="1639817520240" duration="3963000" />
+      <workItem from="1639821537344" duration="4594000" />
+      <workItem from="1639828824211" duration="14627000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{ size: 40px;
+            background-color: blue;
+            color: white;
+            font-size: 15px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<p  id="button">Thời tiết hôm nay thế nào?</p><br><br>
+<button onclick="troiNang()" >trời nắng</button>
+<button onclick="troiMua()" >trời mưa</button>
+</body>
+</html>
+<script>
+    function troiNang() {
+        document.getElementById('button').innerText='Hôm nay trời nắng đẹp';
+    }
+    function troiMua() {
+        document.getElementById('button').innerText='Hôm nay trời mưa ngâu';
+    }
+</script>

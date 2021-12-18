@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính đơn giản</title>
+    <style>
+        button{
+            height: 50px;
+            width: 50px;
+            font-size: 25px;
+        }
+        p{
+            font-size: 25px;
+        }
+        fieldset{
+            border-color: #49f0f3;
+        }
+    </style>
+</head>
+<body>
+<fieldset style="width: 5.7cm" >
+<p id="result"><input type="text" size="26px" placeholder="input"></p>
+<button  onclick="Value(1)" >1</button>
+<button  onclick="Value(2)">2</button>
+<button  onclick="Value(3)">3</button>
+<button  onclick="Value('+')">+</button><br>
+<button  onclick="Value(4)">4</button>
+<button  onclick="Value(5)">5</button>
+<button  onclick="Value(6)">6</button>
+<button  onclick="Value('-')">-</button><br>
+<button  onclick="Value(7)">7</button>
+<button  onclick="Value(8)">8</button>
+<button  onclick="Value(9)">9</button>
+<button  onclick="Value('*')">x</button><br>
+<button  onclick="reset()">C</button>
+<button  onclick="Value(0)">0</button>
+<button  onclick="tinh()">=</button>
+<button  onclick="Value('/')">/</button>
+</fieldset>
+
+<script>
+    function Value(number) {
+        let result = document.getElementById('result').innerText;
+        result= result+number;
+        document.getElementById('result').innerHTML= result;
+    }
+    function tinh() {
+        let a=document.getElementById('result').innerText;
+        let b=eval(a)
+        document.getElementById('result').innerText= b;
+
+    }
+    function reset() {
+        document.getElementById('result').innerHTML = '<input type="text" size="26px" placeholder="input">';
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="text" type="text" size="40px" >
+<button onclick="Add()">Add</button><br>
+<button id="new" style="display: none"></button>
+</body>
+</html>
+<script>
+    function Add(){
+        let a= document.getElementById('text').value;
+        if (a ==='') alert('Bạn chưa nhập nội dung')
+        else {
+            document.getElementById('new').innerHTML = a;
+            document.getElementById('new').style.display = "block";
+        }
+    }
+</script>

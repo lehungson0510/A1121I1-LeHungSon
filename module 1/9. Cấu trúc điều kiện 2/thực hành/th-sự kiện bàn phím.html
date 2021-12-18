@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện bàn phím</title>
+</head>
+<body onload="docReady()">
+ <img id="nobita" src="https://img2.thuthuat123.com/uploads/2020/08/02/anh-nobita-buon-vui-lan-lon_025340953.jpg" style="position:absolute;left:100px; top:100px;" height="300" width="300"/>
+<script>
+    function upArrowPressed() {
+        let element = document.getElementById("nobita");
+        element.style.top = parseInt(element.style.top) - 5 + 'px';
+    }
+    function downArrowPressed() {
+        var element = document.getElementById("nobita");
+        element.style.top = parseInt(element.style.top) + 5 + 'px';
+    }
+    function leftArrowPressed() {
+        var element = document.getElementById("nobita");
+        element.style.left = parseInt(element.style.left) - 5 + 'px';
+    }
+    function rightArrowPressed() {
+        var element = document.getElementById("nobita");
+        element.style.left = parseInt(element.style.left) + 5 + 'px';
+
+    }
+    function moveSelection(evt) {
+        switch (evt.keyCode) {
+            case 37:
+                leftArrowPressed();
+                break;
+            case 39:
+                rightArrowPressed();
+                break;
+            case 38:
+                upArrowPressed();
+                break;
+            case 40:
+                downArrowPressed();
+                break;
+        }
+    }
+    function docReady() {
+        window.addEventListener('keydown', moveSelection);
+    }
+
+</script>
+</body>
+</html>
