@@ -21,11 +21,18 @@
             font-size: 40px;
             color:#fa80ed
         }
-        .img{
+        .p{
             font-size: 30px;
             text-align: center;
             color: #fa80ed;
         }
+       .input-td{
+           padding-left: 35px;
+       }
+        .pic{
+            margin-left: 472px;
+        }
+
     </style>
 </head>
 <body>
@@ -37,7 +44,7 @@
         </th>
     </tr>
     <tr >
-        <td ><input class="yes" type="button" id="yes" value="YES" onclick="yes()" /> &nbsp;
+        <td class="input-td"><input class="yes" type="button" id="yes" value="YES" onclick="yes()" /> &nbsp;
             <input class="no" type="button" id="no" value="NO" onmouseover="no()" /><br>
         </td>
     </tr>
@@ -46,8 +53,7 @@
 
 <script>
     function yes() {
-        document.getElementById('ok').innerHTML='<p  class="img" >:3</p><img src="https://i.pinimg.com/originals/3a/41/07/3a4107fdf3823baa7268a9e1a918b94b.jpg" width="500" height="500" style="position: absolute; " >'
-
+        document.getElementById('ok').innerHTML='<p  class="p" >:3</p><img src="https://i.pinimg.com/originals/3a/41/07/3a4107fdf3823baa7268a9e1a918b94b.jpg" width="500" height="500" class="pic" style="position: absolute; " >'
     }
     function no() {
         let a = Math.random() * window.innerWidth;

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ung dung good fast cheap</title>
+    <style>
+        h1{
+            text-align: center;
+            color: #31d9a6;
+        }
+        input{
+            width: 60px;
+        }
+        span{
+            color: #da26ff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1>Ứng dụng good-fast-cheap</h1><br>
+<table align="center">
+    <tr>
+        <td><input type="range" min="0" max="1"  value="0" id="Good" onclick="range('good')"><span>&emsp; GOOD</span><br></td>
+    </tr>
+    <tr>
+        <td><input type="range" min="0" max="1" value="0" id="Fast" onclick="range('fast')"> <span> &emsp;FAST</span><br></td>
+    </tr>
+    <tr>
+        <td><input type="range" min="0" max="1" value="0" id="Cheap" onclick="range('cheap')"><span>&emsp; CHEAP</span></td>
+    </tr>
+</table>
+<script>
+    let valueGood = document.getElementById('Good');
+    let valueFast = document.getElementById('Fast');
+    let valueCheap = document.getElementById('Cheap');
+    function range(value) {
+        switch (value) {
+            case 'good' :
+                if( valueFast.value == 1){
+                    valueCheap.value = 0;
+                }
+                break;
+            case 'fast' :
+                if( valueCheap.value == 1){
+                    valueGood.value = 0;
+                }
+                break;
+            case 'cheap' :
+                if( valueGood.value == 1){
+                    valueFast.value = 0;
+                }
+                break;
+        }
+    }
+</script>
+</body>
+</html>

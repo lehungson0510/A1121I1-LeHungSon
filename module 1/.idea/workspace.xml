@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3fab6a97-81ef-4476-b611-859265c1872d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/bài tập/bt-Biến, kiểu dữ liệu và toán tử 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/7. Biến, kiểu dữ liệu và toàn tử/bài tập/bt-Biến, kiểu dữ liệu và toán tử 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8. Cấu trúc điều kiện 1/thực hành/th-luyện tập với cấu trúc switch-case 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/8. Cấu trúc điều kiện 1/thực hành/th-luyện tập với cấu trúc switch-case 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Máy tính đơn giản.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Máy tính đơn giản.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Ứng dụng vui DoYouLoveMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Ứng dụng vui DoYouLoveMe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,9 @@
       <workItem from="1639806548439" duration="10751000" />
       <workItem from="1639817520240" duration="3963000" />
       <workItem from="1639821537344" duration="4594000" />
-      <workItem from="1639828824211" duration="14627000" />
+      <workItem from="1639828824211" duration="15230000" />
+      <workItem from="1639855597911" duration="117000" />
+      <workItem from="1639881759467" duration="14613000" />
     </task>
     <servers />
   </component>

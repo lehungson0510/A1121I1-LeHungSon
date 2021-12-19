@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game puzzle</title>
+    <style>
+        h1{
+            background-color: #abe0ff;
+            text-align: center;
+            ;
+        }
+        .true{
+            color: #5bd079;
+            text-align: center;
+        }
+        .false{
+            color: #ff2702;
+            text-align: center;
+        }
+        h2{
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+<h1 style="color:coral;; ">GAME PUZZLE</h1>
+<center>
+    <table>
+        <tr>
+            <td>
+                <button onclick="im1()"><img src="img/img1.1.jpg" alt="error" id="im1" style="height: 250px; width: 250px"></button>
+                <button onclick="im2()"><img src="img/img1.2.jpg" alt="error" id="im2" style="height: 250px; width: 250px"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="im3()"><img src="img/img1.3.jpg" alt="error" id="im3" style="height: 250px; width: 250px"></button>
+                <button onclick="im4()"><img src="img/img1.4.jpg" alt="error" id="im4" style="height: 250px; width: 250px"></button>
+            </td>
+        </tr>
+    </table>
+</center>
+<h2 id="result"></h2>
+</body>
+</html>
+<script>
+    let num1 = 0;
+    let num2 = 0;
+    let num3 = 0;
+    let num4 = 0;
+    function im1() {
+        num1=num1+1;
+        if (num1 === 1) {
+            document.getElementById('im1').src = 'img/img2.1.jpg'
+        }
+        else if(num1 === 2){
+            document.getElementById('im1').src = 'img/img3.1.jpg'
+        }
+        else if(num1 === 3) {
+            document.getElementById('im1').src = 'img/img4.1.jpg'
+        }
+        else{
+            document.getElementById('im1').src = 'img/img1.1.jpg'
+        }
+        if(num1 >= 4){
+            num1 = 0;
+        }
+        setTimeout(result,0);
+    }
+    function im2() {
+        num2 = num2 + 1;
+        if (num2 === 1) {
+            document.getElementById('im2').src = 'img/img2.2.jpg'
+        }
+        else if(num2 === 2){
+            document.getElementById('im2').src = 'img/img3.2.jpg'
+        }
+        else if(num2 ===3){
+            document.getElementById('im2').src = 'img/img4.2.jpg'
+        }
+        else{
+            document.getElementById('im2').src = 'img/img1.2.jpg'
+        }
+        if(num2 >= 4){
+            num2 =0;
+        }
+        setTimeout(result,0);
+    }
+    function im3() {
+        num3 = num3 + 1;
+        if (num3 ===1) {
+            document.getElementById('im3').src = 'img/img2.3.jpg'
+        }
+        else if(num3 ===2){
+            document.getElementById('im3').src = 'img/img3.3.jpg'
+        }
+        else if(num3 ===3) {
+            document.getElementById('im3').src = 'img/img4.3.jpg'
+        }
+        else{
+            document.getElementById('im3').src = 'img/img1.3.jpg'
+        }
+        if(num3 >=4){
+            num3 =0;
+        }
+        setTimeout(result,0);
+    }
+    function im4() {
+        num4 = num4 +1;
+        if (num4 ===1) {
+            document.getElementById('im4').src = 'img/img2.4.jpg'
+        }
+        else if(num4===2){
+            document.getElementById('im4').src = 'img/img3.4.jpg'
+        }
+        else if(num4===3){
+            document.getElementById('im4').src = 'img/img4.4.jpg'
+        }
+        else{
+            document.getElementById('im4').src = 'img/img1.4.jpg'
+        }
+        if(num4>=4){
+            num4 =0;
+        }
+        setTimeout(result,0);
+    }
+    function result() {
+        if(num1===num2&&num2===num3&&num3===num4){
+            document.getElementById('result').innerHTML = '<p class="true">Đúng rồi!!</p>';
+        }
+        else{
+            document.getElementById('result').innerHTML = '<p class="false">Sai rồi, thử lại nào!!</p>';
+        }
+    }
+</script>
