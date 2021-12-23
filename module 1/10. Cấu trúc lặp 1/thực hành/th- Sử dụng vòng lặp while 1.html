@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="hienThi"></p>
+<p id="tong"></p>
+</body>
+</html>
+<script>
+
+    let num = parseInt(prompt("Enter a number: "));
+    let total = 0;
+    let text="";
+    while(num != -1){
+        total=total+num ;
+        text=text + num+'<br>';
+        alert(num);
+        num = parseInt(prompt("Enter a number: "));
+    }
+    document.getElementById('tong').innerText= 'Total = '+total;
+</script>

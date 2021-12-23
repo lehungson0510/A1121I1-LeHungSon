@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 6: Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên. -->
+<script>
+    let a=1;
+    let b=1;
+    let N=1;
+    let count=1;
+    let sum=0;
+    while(count<=30) {
+        if (N%7 == 0) {
+            sum += N;
+            count++
+        }
+        N++
+    }
+    document.write('Tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên= '+sum)
+</script>

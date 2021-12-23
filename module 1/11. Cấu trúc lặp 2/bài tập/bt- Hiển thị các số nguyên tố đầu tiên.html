@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị các số nguyên tố</title>
+</head>
+<body>
+<h2>Các số nguyên tố</h2>
+
+</body>
+</html>
+<script>
+    let number= parseInt(prompt('so luong so nguyen to can in ra'));
+    let count= 1;
+    let N=2;
+    let text = ' ';
+    while (count<= number) {
+        let  flag= true;
+        for(let i=2; i<= Math.sqrt(N); i++){
+          if (N%i==0){
+              flag= false;
+              break;
+          }
+        }
+        if (flag) {
+            count+= 1;
+            text += N+ '&nbsp;';
+        }
+      N=N+1;
+    }
+    document.write(text)
+</script>

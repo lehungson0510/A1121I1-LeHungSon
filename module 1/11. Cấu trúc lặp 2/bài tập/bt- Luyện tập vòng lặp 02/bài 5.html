@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--
+     Lãi suất hàng tháng: 4%
+-->
+<script>
+    let tien=parseInt(prompt('số tiền gửi ngân hàng'));
+    let thang=parseInt(prompt('số tháng gửi ngân hàng'));
+    let laiSuat= tien*4/100;
+    if (thang == 1) document.write('lãi suất = '+laiSuat+' vnd');
+    else{
+        let laiSuatHaiThang= tien*Math.pow((1+0.04),thang) - tien;
+        document.write('lãi suất = '+laiSuatHaiThang+' vnd');
+    }
+</script>

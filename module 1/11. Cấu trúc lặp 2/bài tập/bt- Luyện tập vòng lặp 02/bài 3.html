@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In tam giác vuông</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let i,j;
+    for( i=0;i<5;i++) {
+        for(j=0;j<=i;j++) {
+            document.write(" * ")
+        }
+        document.write("<br/>")
+    }
+    document.write('<br>');
+    for( i=0;i<5;i++) {
+        for(j=5;j>i;j--) {
+            document.write(" * ")
+        }
+        document.write("<br/>")
+    }
+    document.write('<br>');
+    for( i = 4; i >=0; i--) {
+        for (j = 0; j < i; j++)
+            document.write(" &ensp; ");
+        for (j = 5; j > i; j--)
+            document.write(" *");
+
+        document.write("<br/>")
+    }
+    document.write('<br>');
+    for( i = 0; i < 5; i++) {
+        for ( j = 0; j < i; j++)
+            document.write(" &ensp; ");
+        for ( j = i; j < 5; j++)
+            document.write(" *");
+
+        document.write("<br/>")
+    }
+</script>

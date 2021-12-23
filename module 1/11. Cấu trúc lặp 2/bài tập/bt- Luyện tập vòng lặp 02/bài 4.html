@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>in hình chữ nhật</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    for(let i=1;i<=7;i++) {
+        if(i==1 || i==7){
+            for (let k = 1; k <= 28; k++) {
+                document.write("*");
+            }
+        }
+        else {
+            document.write("*");
+            for (let j = 2; j <= 27; j++) {
+                document.write("&ensp;")
+            }
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+</script>

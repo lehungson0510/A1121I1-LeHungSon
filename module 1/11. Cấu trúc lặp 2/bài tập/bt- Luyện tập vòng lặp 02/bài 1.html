@@ -1,0 +1,25 @@
+<!--Bài 1: In dãy Finonaci-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<script>
+    let num=parseInt(prompt('bạn muốn hiện bao nhiêu số trong dãy fibonaci?(>=2) '));
+    let a=1;
+    let b=1;
+    let i=1;
+    let c;
+    let text =a+'&nbsp;'+b+'&nbsp;'
+    for (;i<=(num-2);i++){
+        let c= a+b;
+        text += c+'&nbsp;';
+        a=b;
+        b=c;
+    }
+    document.write(text);
+</script>
+</body>
+</html>

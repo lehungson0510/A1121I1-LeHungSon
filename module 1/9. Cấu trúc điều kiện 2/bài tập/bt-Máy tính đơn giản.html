@@ -4,56 +4,100 @@
     <meta charset="UTF-8">
     <title>Máy tính đơn giản</title>
     <style>
-        button{
+        td {
             height: 50px;
             width: 50px;
-            font-size: 25px;
+            text-align: center;
         }
-        p{
-            font-size: 25px;
+       table{
+           margin-top: 50px;
+           width: 10cm;
+           height: 12cm;
+           border: 1px solid orchid;
+       }
+        td{
+            color: #09aa7c;
+            font-size: 16px;
         }
-        fieldset{
-            border-color: #49f0f3;
+        .result{
+            text-align: right;
         }
     </style>
 </head>
 <body>
 <center>
-<fieldset style="width: 5.7cm" >
-<p id="result"><input type="text" size="26px" placeholder="input"></p>
-<button  onclick="Value(1)" >1</button>
-<button  onclick="Value(2)">2</button>
-<button  onclick="Value(3)">3</button>
-<button  onclick="Value('+')">+</button><br>
-<button  onclick="Value(4)">4</button>
-<button  onclick="Value(5)">5</button>
-<button  onclick="Value(6)">6</button>
-<button  onclick="Value('-')">-</button><br>
-<button  onclick="Value(7)">7</button>
-<button  onclick="Value(8)">8</button>
-<button  onclick="Value(9)">9</button>
-<button  onclick="Value('*')">x</button><br>
-<button  onclick="reset()">C</button>
-<button  onclick="Value(0)">0</button>
-<button  onclick="tinh()">=</button>
-<button  onclick="Value('/')">/</button>
-</fieldset>
+    <h1 style="color:orange;">CALCULATOR</h1>
+<table border="1"  >
+    <tr>
+        <td class="result" colspan="4"><p id="result"></p></td>
+    </tr>
+    <tr>
+        <td onclick="Value(1)" >1</td>
+        <td onclick="Value(2)">2</td>
+        <td onclick="Value(3)">3</td>
+        <td onclick="pressOperator('+')">+</td>
+    </tr>
+    <tr>
+        <td onclick="Value(4)">4</td>
+        <td onclick="Value(5)">5</td>
+        <td onclick="Value(6)">6</td>
+        <td onclick="pressOperator('-')">-</td>
+    </tr>
+    <tr>
+        <td onclick="Value(7)">7</td>
+        <td onclick="Value(8)">8</td>
+        <td onclick="Value(9)">9</td>
+        <td onclick="pressOperator('*')">x</td>
+    </tr>
+    <tr>
+        <td onclick="reset()">C</td>
+        <td onclick="Value(0)">0</td>
+        <td onclick="tinh()">=</td>
+        <td onclick="pressOperator('/')">/</td>
+    </tr>
+</table>
 </center>
 <script>
-    function Value(number) {
+    let result=0;
+    let resultDislay= document.getElementById('result');
+    function Value(num) {
+        if (resultDislay===''){
+            resultDislay.innerHTML=num;
+        } else if (result === 0) {
+            resultDislay.innerHTML += num;
+        } else {
+            resultDislay.innerHTML = num;
+            result = 0;
+        }
+    }
+    function pressOperator(operator) {
+        resultDislay.innerHTML += operator;
+        result = 0;
+    }
+    function reset() {
+        resultDislay.innerHTML = '';
+        result = 0;
+    }
+    function tinh() {
+        result = eval(resultDislay.innerHTML);
+        resultDislay.innerHTML = result;
+    }
+
+</script>
+    <!-- function Value(number) {
         let result = document.getElementById('result').innerText;
         result= result+number;
         document.getElementById('result').innerHTML= result;
     }
     function tinh() {
         let a=document.getElementById('result').innerText;
-        let b=eval(a)
+        let b=eval(a);
         document.getElementById('result').innerText= b;
 
     }
     function reset() {
-        document.getElementById('result').innerHTML = '<input type="text" size="26px" placeholder="input">';
+        document.getElementById('result').innerHTML = '';
     }
-</script>
-</body>
-</html>
+    -->
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            border: 1px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let  table="<table border='1' width='300' cellspacing='0' style='text-align: center' cellpadding='5'>"
+    let i=1, j=1;
+    while(i<=10){
+        table += "<tr>";
+         while (j<=10){
+             table+= "<td>" + i*j +"</td>";
+             j++;
+         }
+         j=1;
+         i++;
+         table+= "</tr>";
+    }
+    table+= "</table>"
+    document.write(table);
+</script>
+

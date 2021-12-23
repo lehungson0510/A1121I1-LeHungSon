@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game đoán số</title>
+    <style>
+        button{
+            height: 100px;
+            width: 200px;
+            font-size: 40px;
+            font-weight: bolder;
+            color: #e2762b;
+            background-color: #abe0ff;
+            margin-top: 250px;
+        }
+    </style>
+</head>
+<body>
+<center>
+<button id="play" onclick="play();">Play</button>
+</center>
+</body>
+</html>
+<script>
+    let i = 0;
+    function play() {
+        let a= parseInt(prompt('số trong khoảng từ: '));
+        let b= parseInt(prompt('đến: '));
+        let c= Math.floor(Math.random() * ((b-a)+1)) + a;
+       do {
+           i++;
+           let d = parseInt(prompt('nhập số bạn muốn đoán'));
+           if (c == d) {
+               alert('Chúc mừng');
+               break;
+           }
+           else {
+               if (d > c)
+                   alert('số bạn đoán lớn hơn');
+               if (d < c)
+                   alert(('số bạn đoán nhỏ hơn'));
+           }
+       }
+            while (i<3)
+    }
+
+
+
+</script>

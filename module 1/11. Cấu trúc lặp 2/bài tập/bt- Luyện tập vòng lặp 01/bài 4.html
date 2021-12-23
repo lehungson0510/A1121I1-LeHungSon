@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 4: Tìm số đầu tiên trong dãy fibonacci chia hết cho 5.-->
+<script>
+    let a=1, b=1, total;
+    while(total%5 !=0){
+        total=a+b;
+        a=b;
+        b=total;
+    }
+    document.write(total)
+</script>

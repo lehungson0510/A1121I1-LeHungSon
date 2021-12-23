@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 3: Hiển thị ra 20 số trong dãy fibonacci đầu tiên. -->
+<script>
+    let a=1;
+    let b=1;
+    let total;
+    let count=1;
+    let text= a + '&emsp;'+b + '&emsp;';
+    while(count<=18){
+        total=a+b;
+        //text+= a + '&emsp;' ,b + '&emsp;' + total +'&emsp;';
+        // dấu phẩy, biểu thức trả về giá trị cuối cùng
+        text+= total+ '&emsp;';
+        count+=1;
+        a=b;
+        b=total;
+    }
+    document.write(text)
+</script>
