@@ -11,14 +11,12 @@
 <!-- Bài 7: Hãy viết một chương trình in ra các số từ 1 đến 100. Nhưng nếu số chia hết cho 3 thì in ra "Fizz", 5 thì in ra "Buzz" thay vì in ra số đó. Và nếu số đó chia hết cho cả 3 và 5 thì in ra chữ "FizzBuzz". -->
 <script>
     let count=1;
-    let a;
     let text='';
     for (;count<=100; count ++){
-        a=count;
-        if (count%3==0) a= 'Fizz';
-        if (count%5==0) a ='Buzz';
-        if ((count%3==0)&&(count%5==0)) a = 'FizzBuzz';
-        text= text + a+'<br>';
+        if ((count%3==0)&&(count%5==0)) text += 'FizzBuzz'+'<br>';
+        else if (count%3==0) text+= 'Fizz'+'<br>';
+        else if (count%5==0) text+='Buzz'+'<br>';
+        else text+= count+'<br>';
             }
     document.write(text)
 </script>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu Dien</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<input id="text" type="text" size="30px">
+<button  onclick="search();">Tìm kiếm</button>
+<p id="result"> </p>
+</body>
+</html>
+<script>
+function search() {
+    let english=['one','two','three','four','five','six','seven','eight','nine','ten'];
+    let vietnamese=[1,2,3,4,5,6,7,8,9,10];
+    let text= document.getElementById('text').value;
+    let check= true;
+    for(let i=0; i<english.length; i++) {
+        if (english[i] == text) {
+            document.getElementById('result').innerText= text +' là số ' +vietnamese[i];
+            check = false;
+            break;
+        }
+    }
+        if(check)
+            alert("khong tim thay");
+}
+</script>
