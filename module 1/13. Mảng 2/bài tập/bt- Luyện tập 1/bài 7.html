@@ -23,6 +23,7 @@ vị trí của V, và gán 0 cho phần tử cuối cùng của mảng) -->
     for (let i=0; i< lastArr.length; i++){
         if( lastArr[i]==V){
             lastArr.splice(i,1);
+            lastArr.push(0)
             i=i-1;
         }
     }

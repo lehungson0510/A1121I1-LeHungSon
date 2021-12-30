@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 6: Viết chương trình nhập vào một mảng ký tự, tìm tất cả các ký tự trong mảng là (-) và thay thế các ký tự này bởi ký tự ( _ ) -->
+<script>
+    let index=parseInt(prompt('nhap kich thuoc mang'));
+    let firstArr= Array(index);
+    for(let i=0; i<firstArr.length; i++){
+        firstArr[i]= prompt('nhap phan tu firstArr['+i+']');
+    }
+    document.write('firstArr=['+firstArr+']'+'<br>');
+    for (let i=0; i<firstArr.length; i++){
+        if(firstArr[i]=='-') firstArr[i]='_';
+    }
+    document.write('lastArr= ['+firstArr+']');
+</script>

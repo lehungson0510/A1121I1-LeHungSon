@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Viết chương trình nhập vào 2 chuỗi và kiểm tra xem 2 chuỗi có giống nhau không? -->
+<script>
+    let check=true;
+    let str1=prompt('input string1');
+    let str2=prompt('input string2');
+    let arr1= str1.split('')
+    let arr2= str2.split('')
+    for (let i=0; i<arr1.length; i++){
+        if (arr1[i]!=arr2[i]) {
+            check = false;
+            break;
+        }
+    }
+       if(check==true){
+           document.write('Hai chuoi giong nhau');
+       }
+       else {
+           document.write('Hai chuoi khong giong nhau');
+       }
+</script>

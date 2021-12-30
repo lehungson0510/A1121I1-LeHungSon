@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 3: Viết một chương trình khai báo một mảng ký tự và kích thước của mảng. Chương trình này đếm số ký tự số trong mảng.  -->
+<script>
+    let input=parseInt(prompt('nhap so phan tu cua mang'));
+    let arr= Array(input);
+    let count=0;
+    for (let i=0;i<arr.length; i++){
+        arr[i]= (prompt('nhap phan tu arr['+i+']'));
+    }
+    document.write('arr=['+arr+']'+'<br>');
+    for (let i=0;i<arr.length; i++){
+        if(arr[i]%1 ==0){
+            count+=1;
+        }
+    }
+    document.write('So cac ky tu so trong mang: '+count);
+</script>
