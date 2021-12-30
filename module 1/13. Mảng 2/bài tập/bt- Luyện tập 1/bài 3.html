@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 3- Viết chương trình khởi tạo mảng số nguyên. Hiển hiện giá trị lớn nhất trong
+mảng đó. In ra giá trị trung bình của các phần tử trong mảng. -->
+<script>
+    let arr=[];
+    let sum=0;
+    let input= parseInt(prompt('ban muon tao mang gom bao nhieu so nguyen?'))
+    for(let i=0; i<input; i++){
+        arr[i] = parseInt(prompt('nhap phan tu arr[' + i+']'));
+        sum+= arr[i];
+    }
+    let max= arr[0];
+    let count=0;
+    for (let i=1;i<arr.length;i++){
+        if (arr[i]>max) {
+            max=arr[i]
+            count=i;
+        }
+    }
+    document.write('Max= '+max+' tai arr['+count+']'+'<br>')
+    document.write('Trung binh= '+sum/input);
+</script>

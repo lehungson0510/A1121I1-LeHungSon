@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 2- Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử khác nhau. Chương
+trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó. -->
+<script>
+    let i=1;
+    let arr=[];
+    for (let i=0; i<10; i++){
+        arr[i]=parseInt(prompt('nhap phan tu arr['+i+']'));
+    }
+    let max= arr[0];
+    let count=0;
+    for (let i=1;i<arr.length;i++){
+        if (arr[i]>max) {
+            max=arr[i]
+            count=i;
+        }
+    }
+    document.write('max= '+max+' tai arr['+count+']'  )
+</script>

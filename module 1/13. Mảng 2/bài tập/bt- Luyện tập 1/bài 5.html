@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 5- Viết chương trình đếm số nguyên âm trong một chuỗi -->
+<script>
+    let arr=[];
+    let count=0;
+    let text='';
+    let check=true;
+    let input= parseInt(prompt('ban muon tao mang gom bao nhieu so nguyen?'))
+    for(let i=0; i<input; i++){
+        arr[i] = parseInt(prompt('nhap phan tu arr[' + i+']'));
+    }
+    for(let i=0; i<arr.length; i++){
+
+        if (arr[i]<0){
+            count+=1;
+            text+= arr[i]+'&nbsp;';
+            check=false;
+        }
+    }
+    if(check) text='khong co';
+    document.write('Mang arr =['+arr+']<br>');
+    document.write('Cac so nguyen am trong mang: '+text+'<br>');
+    document.write('So cac so nguyen am: '+count);
+</script>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Bài 8- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử. Chương trình sắp xếp mảng theo thứ tự giảm dần và
+hiển thị ra mảng đã được sắp xếp. -->
+<script>
+    let firstArr=[];
+    let lastArr=[];
+    for(let i=1;i<=10; i++) {
+        firstArr[i - 1] = parseInt(prompt('nhap vao so nguyen thu ' + i));
+        lastArr[i-1]=firstArr[i-1];
+    }
+    lastArr.sort(function (a,b) {
+        return b-a;
+    })
+    document.write('Mang firstArr = ['+firstArr+']'+'<br>')
+    document.write('Mang lastArr = ['+lastArr+']')
+</script>
