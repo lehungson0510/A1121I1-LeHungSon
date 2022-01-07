@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KIỂM TRA SỐ NGUYÊN TỐ</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+    function isPrime(number) {
+        if (number <= 1)
+            return number + ' not is a prime';
+        else {
+            let check= true;
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if(number%i==0) {
+                    check = false;
+                    break;
+                }
+            }
+            if(check) return number+' is a prime'
+            else return number+' is not a prime';
+        }
+    }
+    let number=parseInt(prompt('input number'));
+    let result=isPrime(number);
+    alert(result)
+</script>

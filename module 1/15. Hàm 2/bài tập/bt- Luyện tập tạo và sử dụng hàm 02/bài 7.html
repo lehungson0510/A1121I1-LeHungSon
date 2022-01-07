@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.-->
+<script>
+    function swap(a,b) {
+        let temp=a;
+        a=b;
+        b=temp;
+        return 'number1= '+a+'; number2= '+b ;
+    }
+    let number1=parseInt(prompt('input number1'));
+    let number2=parseInt(prompt('input number2'));
+    alert(swap(number1,number2));
+</script>

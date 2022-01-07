@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 3: Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.-->
+<script>
+    function tinhGiaiThua(number) {
+        if (number==2)
+            return 1;
+        else
+        return number*tinhGiaiThua(number-1);
+    }
+    let num=parseInt(prompt('input number'));
+    let giaiThua=tinhGiaiThua(num);
+    alert(giaiThua);
+</script>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim gia tri nho nhat cua mang</title>
+</head>
+<body>
+<script>
+    let text = " ";
+    let index=parseInt(prompt('mang gom bao nhieu phan tu?: '));
+    let arr= Array(index);
+    for(let i=0; i<arr.length;i++){
+        arr[i] = parseInt(prompt('Ban hay nhap phan tu arr['+i+']'));
+    }
+    document.write('arr= ['+arr+']'+'<br>');
+    function checkMinArray(array) {
+        let min=array[0];
+        for(let i=0;i<array.length;i++){
+            if(array[i]<min){
+                min = array[i];
+            }
+        }
+        return min;
+    }
+    let result = checkMinArray(arr);
+    document.write('Phan tu nho nhat= ' +result)
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được-->
+<script>
+    let PI=3.14;
+    function tinhChuViHinhTron(R) {
+        P=2*PI*R
+        return P;
+    }
+    function tinhDienTichHinhTron(R) {
+        S=PI*R*R;
+        return S;
+    }
+    let r=parseFloat(prompt('input radius'));
+    let perimeter=tinhChuViHinhTron(r);
+    let area= tinhDienTichHinhTron(r);
+    alert('chu vi= '+perimeter);
+    alert('dien tich= '+area)
+</script>
