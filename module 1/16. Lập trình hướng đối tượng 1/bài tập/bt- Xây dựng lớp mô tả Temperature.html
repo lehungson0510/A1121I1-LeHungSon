@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let inputCelcius;
+class Temperature{
+    constructor(temperature) {
+        this.temperature = temperature;
+    }
+    CelToFahrenheit(){
+        return this.temperature*1.8+32;
+
+    }
+    CelToKenvin(){
+        return this.temperature+273;
+
+    }
+}
+do{
+     inputCelcius=parseInt(prompt('input celcius'));
+}
+while (inputCelcius<-273)
+let temperature= new Temperature(inputCelcius);
+document.write(temperature.temperature+' °C= '+temperature.CelToFahrenheit()+ ' °F'+'<br>');
+document.write(temperature.temperature+' °C= '+ temperature.CelToKenvin()+'°F')
+
+
+</script>

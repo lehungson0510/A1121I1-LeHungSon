@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    class Rectangle{
+        constructor(length,width) {
+            this.length = length;
+            this.width = width;
+        }
+            getPerimeter() {
+                return (this.length+this.width)*2;
+            }
+            getArea() {
+                return this.length*this.width;
+            }
+            getLength(){
+            return this.length;
+            }
+            getWidth(){
+            return this.width;
+            }
+            setLength(length){
+            this.length=length;
+            }
+            setWidth(width){
+            this.width=width;
+            }
+    }
+    let rectangle= new Rectangle(1,2);
+    let perimeter= rectangle.getPerimeter();
+    let area= rectangle.getArea();
+    alert('perimeter= '+perimeter+'; area= '+area);
+    rectangle.setLength(3);
+    rectangle.setWidth(4);
+    perimeter= rectangle.getPerimeter();
+    area= rectangle.getArea();
+    alert('perimeter= '+perimeter+'; area= '+area);
+</script>
