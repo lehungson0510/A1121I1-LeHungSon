@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 3: Cho một danh sách các phân số, hãy tìm chỉ số của phân số lớn nhất (đếm từ 0)-->
+<script>
+    let indexArr=parseInt(prompt('input the number of elements in the array'));
+    let arrNumerators=Array(indexArr);
+    let arrDenominators=Array(indexArr);
+    let count=0;
+    let index;
+    for(let i=0; i<arrNumerators.length; i++) {
+        arrNumerators[i] = parseInt(prompt('input arrNumerators[' + i + ']'));
+    }
+    for(let i=0; i<arrDenominators.length; i++) {
+        arrDenominators[i] = parseInt(prompt('input arrDenominators[' + i + ']'));
+    }
+    function maxFraction(arrNumerators, arrDenominators) {
+        let max = arrNumerators[0] / arrDenominators[0];
+        for (let i = 0; i < indexArr; i++) {
+            let fraction=arrNumerators[i] / arrDenominators[i];
+            if (fraction >= max) {
+                max = fraction;
+                index=i;
+            }
+        }
+        document.write('arrNumerators=['+arrNumerators+']<br>');
+        document.write('arrDenominators=['+arrDenominators+']<br>');
+        document.write('maxFraction(numerators, denominators) = '+index)
+        }
+    maxFraction(arrNumerators,arrDenominators);
+
+</script>

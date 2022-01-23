@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 2: Viết hàm liệt kê các số nguyên tố trong mảng 2 chiều, đếm các số nguyên tố có trong mảng đó.-->
+<script>
+    let rowArr=parseInt(prompt('só hàng ma trận: '));
+    let colArr=parseInt(prompt('số cột ma trận: '));
+    let count=0;
+    let arr2d=Array(rowArr);
+    let soNguyenTo='';
+
+    // Nhập các phần tử của mảng
+    for(let row=0; row<arr2d.length;row++){
+        arr2d[row]=Array(colArr);
+        for(let col=0; col<arr2d[row].length;col++){
+            arr2d[row][col]=parseFloat(prompt('nhập phần tử arr2d['+row+']'+'['+col+']'))
+        }
+    }
+    // Hiển thị mảng
+    let arr='';
+    for (let row = 0; row < arr2d.length; row++) {
+        for (let col = 0; col < arr2d[row].length; col++){
+            arr+=arr2d[row][col]+' ';
+        }
+        arr+='<br>';
+    }
+    document.write('arr2d=<br>'+arr);
+
+    // Liệt kê và hiển thị số nguyên tố
+
+    for (let row = 0; row < arr2d.length; row++) {
+        for (let col = 0; col < arr2d[row].length; col++) {
+            let check=true
+            if(arr2d[row][col]<=1){
+                check=false;
+            }
+            else {
+                for(let i=2; i<=Math.sqrt(arr2d[row][col]);i++){
+                    if(arr2d[row][col]%i===0){
+                        check=false;
+                        break;
+                    }
+                }
+            }
+
+            if(check){
+                count+=1;
+                soNguyenTo+=arr2d[row][col]+' ';
+
+            }
+        }
+    }
+    if(count>0) {
+        document.write('Số các số nguyên tố trong mảng: ' + count+'<br>');
+        document.write('Các số nguyên tố trong mảng là: ' + soNguyenTo);
+    }
+    else{
+        document.write('Trong mảng không có số nguyên tố nào')
+    }
+
+</script>

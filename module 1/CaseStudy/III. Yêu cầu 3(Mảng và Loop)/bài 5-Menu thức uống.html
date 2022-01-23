@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+
+        }
+    </style>
+</head>
+<body>
+<script>
+    let choose;
+    let totalPrice=0;
+    let drink;
+    let price;
+    let number;
+    let menu= 'Mời bạn chọn đồ uống: \n'+
+            '1. Cafe \n'+
+            '2. Cam vắt \n'+
+            '3. Nước ép cà rốt \n'+
+            '4. Nước ép cà chua \n'+
+            '5. Nước lọc \n'+
+            '6. Nước dừa \n'+
+            '7. Thoát chọn \n';
+    do{
+        choose=parseInt(prompt(menu))
+        switch(choose) {
+            case 1:
+                drink='Cafe';
+                price = 10000;
+                break;
+            case 2:
+                drink='Cam vắt';
+                price = 12000;
+                break;
+            case 3:
+                drink='Nước ép cà rốt';
+                price = 14000;
+                break;
+            case 4:
+                drink='Nước ép cà chua';
+                price = 16000;
+                break;
+            case 5:
+                drink='Nước lọc';
+                price = 18000;
+                break;
+            case 6:
+                drink='Nước dừa';
+                price = 20000;
+                break;
+            default :
+                continue;
+        }
+        number=parseInt(prompt('Giá tiền là của '+ drink+' là: '+price+ '\n'+'Nhập số lượng đồ uống:'));
+        totalPrice+=price * number;
+    } while(choose !==7);
+    alert('Tổng số tiền cần phải trả: '+totalPrice);
+
+</script>
+</body>
+</html>

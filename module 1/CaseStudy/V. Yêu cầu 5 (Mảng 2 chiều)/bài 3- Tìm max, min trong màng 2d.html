@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 3: Viết hàm tìm giá trị lớn nhất, nhỏ nhất trong mảng 2 chiều-->
+<script>
+    let rowArr=parseInt(prompt('só hàng ma trận: '));
+    let colArr=parseInt(prompt('số cột ma trận: '));
+    let arr2d=Array(rowArr);
+
+    // Nhập các phần tử của mảng
+    for(let row=0; row<arr2d.length;row++){
+        arr2d[row]=Array(colArr);
+        for(let col=0; col<arr2d[row].length;col++){
+            arr2d[row][col]=parseFloat(prompt('nhập phần tử arr2d['+row+']'+'['+col+']'))
+        }
+    }
+    // Hiển thị mảng 2d
+    let arr='';
+    for (let row = 0; row < arr2d.length; row++) {
+        for (let col = 0; col < arr2d[row].length; col++){
+            arr+=arr2d[row][col]+' ';
+        }
+        arr+='<br>';
+
+    }
+    document.write('arr2d=<br>'+arr);
+
+    // Tìm max, min
+    let max=arr2d[0][0];
+    let min=arr2d[0][0];
+    for (let row = 0; row < arr2d.length; row++) {
+        for (let col = 0; col < arr2d[row].length; col++) {
+            if (arr2d[row][col] >= max) {
+                max=arr2d[row][col];
+            }
+            if (arr2d[row][col] <= min) {
+                min=arr2d[row][col];
+            }
+        }
+    }
+    document.write('Max= '+max+'<br>'+ 'Min= '+min);
+
+</script>

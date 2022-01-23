@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Cho 2 mảng A và B chứa số nguyên. Tìm ra một mảng đã được sắp xếp chứa các phần tử xuất hiện trong mảng B nhưng lại không xuất hiện A-->
+<script>
+    let arrC=[];
+    let indexA=parseInt(prompt('input the number of elements in the arrayA'));
+    let arrA=Array(indexA);
+    for(let i=0; i<arrA.length; i++) {
+        arrA[i] = parseInt(prompt('input arrA[' + i + ']'));
+    }
+    let indexB=parseInt(prompt('input the number of elements in the arrayB'));
+    let arrB=Array(indexB);
+    for(let i=0; i<arrB.length; i++) {
+        arrB[i] = parseInt(prompt('input arrB[' + i + ']'));
+    }
+    function missingValue(arrA, arrB) {
+        for (let i = 0; i < arrB.length; i++) {
+            let check = true;
+            for (let j = 0; j < arrA.length; j++) {
+                if (arrB[i] === arrA[j]) {
+                    check = false;
+                    break;
+                }
+            }
+            if (check) {
+                arrC.push(arrB[i]);
+            }
+        }
+        document.write('arrA= ['+arrA+']<br>');
+        document.write('arrB= ['+arrB+']<br>');
+        document.write('arrC= ['+arrC+']<br>');
+    }
+   missingValue(arrA,arrB);
+
+</script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="text-align: center; font-size: 30px">
+<h2> Vẽ hình chữ nhật<br></h2>
+</body>
+</html>
+<script>
+let length=parseInt(prompt('input length='))
+let width=parseInt(prompt('input width='));
+for(let i=1; i<=width;i++){
+    document.write('<br>')
+    for(let j=1; j<=length;j++){
+        if(i==1||i==length){
+            document.write(' * ')
+        }
+        else {
+            if(j==1||j==width) {
+                document.write(' * ');
+            }
+            else {
+                document.write(' &ensp; ');
+            }
+        }
+    }
+}
+</script>

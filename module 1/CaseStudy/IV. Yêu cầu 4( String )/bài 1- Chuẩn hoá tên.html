@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 1: Viết một hàm chuẩn hóa xâu ký tự: biến đổi xâu ký tự thành xâu sao cho trong xâu không có 2 dấu cách liền nhau
+và bắt đầu mỗi từ phải in hoa-->
+<script>
+    function chuanHoaTen(name) {
+        name=name.trim();
+        name=name.toLowerCase();
+        let arr=name.split('')
+        for(let i=0; i<arr.length; i++){
+            if(arr[i]===' '&&arr[i+1]===' '){
+                arr.splice(i,1);
+                i--;
+            }
+        }
+        arr[0]=arr[0].toUpperCase();
+        for(let i=1; i<arr.length;i++){
+            if(arr[i]===' '){
+                arr[i+1]=arr[i+1].toUpperCase();
+            }
+        }
+        let nameDaChuanHoa= arr.join('');
+        return nameDaChuanHoa;
+     }
+     function findLongestName(name){
+        let arr=name.split(' ');
+        let longestName=arr[0];
+        for(let i=0; i<arr.length;i++){
+            if(arr[i].length>longestName.length){
+                longestName=arr[i];
+            }
+        }
+        return longestName;
+     }
+    let name=prompt('nhập tên: ');
+    alert('Tên ban đầu: '+name+ '\n'+ 'Tên đã chuẩn hoá: '+ chuanHoaTen(name) + '\n'+  'Từ dài nhất: '+findLongestName(chuanHoaTen(name)))
+
+
+
+
+
+</script>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 1: Viết hàm tính tổng các số chẵn trong ma trận có kích thước m*n. Với m, n là các số nhập từ bàn phím.-->
+<script>
+    let rowArr=parseInt(prompt('số hàng ma trận: '));
+    let colArr=parseInt(prompt('số cột ma trận: '));
+    let sum=0;
+    let arr2d=Array(rowArr);
+    for(let row=0; row<arr2d.length;row++){
+        arr2d[row]=Array(colArr);
+        for(let col=0; col<arr2d[row].length;col++){
+            arr2d[row][col]=parseInt(prompt('nhập phần tử arr2d['+row+']'+'['+col+']'))
+        }
+    }
+    for (let row = 0; row < arr2d.length; row++) {
+        for (let col = 0; col < arr2d[row].length; col++) {
+            if(arr2d[row][col]%2===0){
+                sum+=arr2d[row][col];
+            }
+        }
+    }
+    alert('Tổng các số chẵn trong mảng= '+sum);
+</script>

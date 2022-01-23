@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="text-align: center; font-size: 30px">
+
+<h2>Vẽ tam giác cân đặc<br></h2>
+
+<script >
+    let height=parseInt(prompt('input  height'));
+    let text='';
+    for(let i=0; i<height;i++){
+        for(let j=1; j<=2*height-1; j++){
+            if(j>=(height-i)&&j<=(height+i)){
+                text+=' * ';
+            }
+            else {
+                text+=' &ensp; '
+            }
+        }
+        text+='<br>';
+    }
+    document.write(text);
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!-- Cho hai xâu kí tự, tìm số lượng kí tự chung giữa chúng.-->
+<!-- Ví dụ: s1 = "aabcc" và s2 = "adcaa", thì kết quả commonCharacterCount(s1, s2) = 3.-->
+<!--⇨	2 xâu s1 và s2 có 3 kí tự chung: 2 kí tự 'a' và 1 kí tự 'c'.-->
+<script>
+   let string1=prompt('input string 1');
+   let arrString1=string1.split('');
+   let string2=prompt('input string 2');
+   let arrString2=string2.split('');
+   let check=false;
+   let text='';
+   let count=0;
+   document.write('Xâu 1: '+string1+'<br>');
+   document.write('Xâu 2: '+string2+'<br>');
+   for(let i=0; i<arrString1.length; i++){
+       for(let j=0;j<arrString2.length;j++) {
+           if (arrString1[i] === arrString2[j]) {
+               check = true;
+               count += 1;
+               text += arrString1[i];
+               arrString2.splice(j, 1);
+               j--;
+               break;
+           }
+       }
+       }
+       if(check){
+           document.write('Số lượng kí tự chung giữa 2 xâu là: '+count+'<br>'+' Kí tự chung là: '+text.split('').sort());
+       }
+       else {
+           document.write('Không có kí tự chung giữa 2 xâu');
+       }
+</script>

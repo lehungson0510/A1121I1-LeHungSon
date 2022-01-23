@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 1: Cho mảng a chỉ chứa các số nguyên-->
+<!--Xây dựng mảng b là prefix sums của mảng a cụ thể theo công thức:-->
+<!--b[0]   = a[0]-->
+<!--b[1]   = a[0] + a[1]-->
+<!--b[2]   = a[0] + a[1] + a[2]-->
+
+<script>
+    let index=parseInt(prompt('input the number of elements in the array'));
+    let a=Array(index);
+    let temp=0;
+    let b=Array(index);
+    for(let i=0; i<a.length; i++){
+        a[i]=parseInt(prompt('input a['+i+']'));
+        temp+=a[i];
+        b[i]=temp;
+    }
+    document.write('a=['+a+']'+'<br>'+'b=['+b+']');
+</script>
