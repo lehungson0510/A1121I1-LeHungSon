@@ -16,8 +16,10 @@
         firstArr[i]= prompt('nhap phan tu firstArr['+i+']');
     }
     document.write('firstArr=['+firstArr+']'+'<br>');
-    for (let i=0; i<firstArr.length; i++){
-        if(firstArr[i]=='-') firstArr[i]='_';
+    let firstArr1=firstArr.join('');
+    let firstArr2=firstArr1.split('')
+    for (let i=0; i<firstArr2.length; i++){
+        if(firstArr2[i]=='-') firstArr2[i]='_';
     }
-    document.write('lastArr= ['+firstArr+']');
+    document.write('lastArr= ['+firstArr2.join(' ')+']');
 </script>

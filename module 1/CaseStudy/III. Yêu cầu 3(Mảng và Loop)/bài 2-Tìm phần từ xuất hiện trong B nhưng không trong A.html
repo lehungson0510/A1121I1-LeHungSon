@@ -34,10 +34,14 @@
                 arrC.push(arrB[i]);
             }
         }
+        arrC=arrC.sort(function (a,b) {
+            return a-b;
+
+        })
         document.write('arrA= ['+arrA+']<br>');
         document.write('arrB= ['+arrB+']<br>');
         document.write('arrC= ['+arrC+']<br>');
     }
-   missingValue(arrA,arrB);
+    missingValue(arrA,arrB);
 
 </script>

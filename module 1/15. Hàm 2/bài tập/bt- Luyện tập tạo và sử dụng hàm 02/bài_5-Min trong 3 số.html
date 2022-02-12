@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.-->
+<script>
+    let min;
+    function minNum(a,b,c) {
+        min=a;
+        if(b<min) min=b;
+        if(c<min) min=c;
+        return min;
+    }
+    let num1=parseFloat(prompt('input num 1'));
+    let num2=parseFloat(prompt('input num 2'));
+    let num3=parseFloat(prompt('input num 3'));
+    let result=minNum(num1,num2,num3);
+    alert(result)
+</script>

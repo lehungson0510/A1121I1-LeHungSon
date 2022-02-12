@@ -12,12 +12,12 @@
  [ 'c', 's', 'c', '2', '6', '1' ] sau khi thực hiện đảo ngược sẽ là "162csc" -->
 
 <script>
-    let input=parseInt(prompt('nhap so phan tu cua mang'));
+    let input=parseFloat(prompt('nhap so phan tu cua mang'));
     let firstArr= Array(input);
     for (let i=0; i<firstArr.length; i++){
-        firstArr[i]=parseInt(prompt('nhap phan tu arr['+i+']'));
+        firstArr[i]=(prompt('nhap phan tu arr['+i+']'));
     }
     document.write('firstArr= ['+firstArr+']'+'<br>');
     let lastArr=firstArr.reverse();
-    document.write('lastArr= ['+lastArr+']');
+    document.write('lastArr= '+lastArr.join(''));
 </script>
