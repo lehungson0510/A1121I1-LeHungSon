@@ -20,53 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fab6a97-81ef-4476-b611-859265c1872d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_5-Min trong 3 số.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/Bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/Bài 3-Hiển thị 20 số đầu tiên trong fibonaci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 2-Nhập nhiệt độ trong khoảng 20-100 và cảnh báo .html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 4-Tìm số đầu tiên trong fibonaci chia het 5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 5-Tổng 20 số đầu tiên trong fibonaci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 6-Tổng 30 số chia hết cho 7 đầu tiên trong các số tự nhiên.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 7-Thay số chia hết 3 bằng Fizz, 5 bằng Buzz, 3 và 5 là FizzBuzz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 01/bài 8-Game đoán số.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 1-Hiện bao nhiêu số trong dãy fibonaci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 2-Tính giai thừa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 3-In tam giác vuông.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 4-In hcn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 5-Lãi suất.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/bt- Luyện tập vòng lặp 02/bài 6-In trái tim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài_1-In các ptu trong mang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài_2-Đảo ngược mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài_3-Đêm số kí tự số trong mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài_4-Đếm số trong 1 chuỗi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài_5-Kiểm tra sự giống khác nhau 2 chuỗi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt - Luyện tập 2/bài_6-Thay (-) sang (_).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_1-Nhập 10 số nguyên, tìm số lớn hơn 10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_2-Nhập 10 số nguyên, tìm max và index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_3-Nhập số nguyên, tìm max và trung bình.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_4-Đảo ngược mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_5-Đếm số nguyên âm trong chuỗi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_6-Kiểm tra số có nằm trong mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_7-Kiểm tra số có thuộc mảng và xoá số đó.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_8-Sắp xếp mảng giảm dần.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Luyện tập 1/bài_9-Nối 2 mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Sử dụng các phần tử của mảng/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Sử dụng các phần tử của mảng/bài_1-Nối chuỗi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Sử dụng các phần tử của mảng/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Sử dụng các phần tử của mảng/bài_2-Chèn dấu (-) giữa 2 số chẵn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Sử dụng các phần tử của mảng/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/bt- Sử dụng các phần tử của mảng/bài_3-Chuyễn kí tự thường thành hoa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_1-Đảo ngược mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_2-Diện tích, chu vi hình tròn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_3-Tính giai thừa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_4-Kiểm tra ký tự số.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_6-Kiểm tra số nguyên dương.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_7-Đổi chổ 2 số.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_8-Đảo ngược mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/15. Hàm 2/bài tập/bt- Luyện tập tạo và sử dụng hàm 02/bài_9-Kiểm tra kí tự nằm trong mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 01/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 01/bài 5-Xếp học lực.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 01/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 01/bài 6-Tính hoa hồng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 01/bài 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 01/bài 7-Tính cước điện thoại.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/III. Yêu cầu 3(Mảng và Loop)/bài 2-Tìm phần từ xuất hiện trong B nhưng không trong A.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/III. Yêu cầu 3(Mảng và Loop)/bài 2-Tìm phần từ xuất hiện trong B nhưng không trong A.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/III. Yêu cầu 3(Mảng và Loop)/bài 4-Chuyển số thành chữ.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/III. Yêu cầu 3(Mảng và Loop)/bài 4-Chuyển số thành chữ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/th- Sử dụng vòng lặp lồng nhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/th- Sử dụng vòng lặp lồng nhau-tạo bảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 02/bài 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 02/bài 9-Điều kiện tam giác.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +162,14 @@
       <workItem from="1644510887790" duration="608000" />
       <workItem from="1644574151007" duration="2929000" />
       <workItem from="1644580456196" duration="45000" />
-      <workItem from="1644672250780" duration="3277000" />
+      <workItem from="1644672250780" duration="4907000" />
+      <workItem from="1644742561708" duration="5380000" />
+      <workItem from="1644758866367" duration="3457000" />
+      <workItem from="1644835726134" duration="9151000" />
+      <workItem from="1644935807163" duration="1206000" />
+      <workItem from="1644957302147" duration="379000" />
+      <workItem from="1644977989291" duration="613000" />
+      <workItem from="1644981992998" duration="20434000" />
     </task>
     <servers />
   </component>

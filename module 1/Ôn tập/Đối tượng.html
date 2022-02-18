@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm</title>
+    <style type="text/css">
+        td:nth-child(even) {
+            width: 100px;
+            height: 20px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+<div id="display"></div>
+<div id="form">
+    <form action="#" method="get">
+        <input type="text" id="inputNewProduct">
+        <button type="button" onclick="add()">Add</button>
+    </form>
+</div>
+<div id="form2">
+    <form action="#" method="get">
+        <input type="text" id="showName">
+        <button type="button" id="button" onclick="update()">Edit</button>
+        <input type="hidden" value="-1" id="indexHidden">
+    </form>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    // Bước 1: Tạo một trang HTML với các thẻ cơ bản
+    // Bước 2: Tạo một mảng chứa danh sách sản phẩm
+    // Bước 3: Xây dựng các hàm hiển thị danh sách sản phẩm, thêm một sản phẩm vào danh sách, sửa tên sản phẩm, xoá sản phẩm.
+    // Hàm hiển thị sản phẩm
+    function showList (arr) {
+        for(i=0;i<arr.length;i++) {
+            return arr[i];
+        }
+    }
+    // Hàm thêm sản phẩm
+    function addProduct(arr,x) {
+        arr.push(x);
+    }
+    // Hàm sửa tên sản phẩm
+    function editProductName(arr,x,y) {
+        for(i=0;i<arr.length;i++) {
+            if(arr[i] == x) arr[i] = y
+        }
+    }
+    // Hàm xóa sản phẩm
+    function deleteProduct(arr,i) {
+        arr.splice(i,1)
+    }
+    // Bước 4: Gọi hàm hiển thị danh sách sản phẩm
+    let productList = ['item1','item2','item3','item4','item5','item6'];
+
+    function displayTable(arr) {
+        let num = 0;
+        let table = '<table id=\"myTable\" border=\"1\">\n';
+        for(row=0;row<arr.length;row++) {
+            table += '\t<tr>\n';
+            num++;
+            for(col=0;col<1;col++) {
+                table += '\t\t<td >'+ num +'</td>\n';
+                table += '\t\t<td onclick=\"show(\'' + arr[row] + '\', \'' + row + '\')\">'+ arr[row] +'</td>\n';
+                table += '\t\t<td><button type=\'button\' onclick=\"del('+row+')\">Delete</button></td>\n';
+            }
+            table+='\t</tr>\n';
+        } table += '</table>';
+        display.innerHTML = table;
+    }
+    displayTable(productList);
+
+    // Bước 5: Gọi hàm thêm một sản phẩm vào danh sách
+    function add() {
+        let inputNewProduct = document.getElementById('inputNewProduct').value;
+        addProduct(productList,inputNewProduct);
+        displayTable(productList);
+        document.getElementById('inputNewProduct').value = '';
+    }
+
+    // Bước 6: Gọi hàm sửa một sản phẩm trong danh sách
+    function show(oldName, index) {
+        document.getElementById('indexHidden').value = index;
+        document.getElementById('showName').value = oldName;
+    }
+
+    // Bước 7: Gọi hàm xoá một sản phẩm trong danh sách
+    function del(i) {
+        deleteProduct(productList,i);
+        displayTable(productList);
+    }
+
+    function update(){
+        //lấy index của biến hidden
+        let index = document.getElementById('indexHidden').value;
+
+        //lấy giá trị mới
+        let newName = document.getElementById('showName').value;
+        //cập nhật vào array
+        productList[index] =  newName;
+
+        displayTable(productList);
+    }
+
+</script>

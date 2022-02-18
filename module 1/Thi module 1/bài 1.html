@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let count=0;
+    let total=0;
+    let index;
+    let result;
+
+    do {
+        index=parseInt(prompt('nhap so luong phan tu ( <= 50)'));
+    }
+    while (index>50);
+
+    let arr=Array(index);
+    for(let i=0; i<arr.length;i++){
+        arr[i]=parseInt(prompt('nhap phan tu arr['+i+']'));
+    }
+    document.write('arr= ['+arr+']'+'<br>');
+
+    for(let i=0; i<arr.length;i+=2){
+        if(arr[i]%2!=0){
+            count+=1;
+            total+=arr[i];
+        }
+    }
+
+    result=total/count;
+    document.write('Diem trung binh cac so le o vi tri chan= '+result);
+</script>

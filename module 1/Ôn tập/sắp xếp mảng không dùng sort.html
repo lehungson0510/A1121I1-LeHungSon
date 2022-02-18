@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--Sắp xếp từ bé tới lớn-->
+<script>
+
+    let index=parseInt(prompt('nhap so phan tu cua mang'));
+    let a=[];
+    for(let i=0; i<index;i++){
+        a[i]=parseInt(prompt('nhap a['+i+']'));
+    }
+    for(let x=0; x<a.length;x++){
+        for (let y=a.length-1;y>x; y--){
+            if(a[x]>a[y]){
+                let temp=a[y];
+                a[y]=a[x];
+                a[x]=temp;
+            }
+        }
+    }
+    document.write(a)
+</script>

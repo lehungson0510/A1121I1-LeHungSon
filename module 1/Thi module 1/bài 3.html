@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <h2>Quản lí sách</h2>
+    <p id="display"></p>
+    <button type="button" onclick="themSach()">Thêm sách đã có</button>
+    <button type="button" onclick="themSachMoi()">Thêm sách mới</button>
+    <button type="button" onclick="muonSach()">Mượn sách</button>
+    <button type="button" onclick="hienThiSach()">Hiển thị sách nhiều nhất</button>
+</center>
+</body>
+</html>
+<script>
+    class Book{
+        constructor(idBook, nameBook, year, quantity, status) {
+            this.idBook = idBook;
+            this.nameBook = nameBook;
+            this.year = year;
+            this.quantity = quantity;
+            this.status = status;
+        }
+        getIdBook(){
+            return this.idBook;
+        }
+        setId(newId){
+           this.idBook=newId;
+        }
+        getNameBook(){
+            return this.nameBook;
+        }
+        setNameBook(newName){
+            this.nameBook= newName;
+        }
+        getYear(){
+            return this.year;
+        }
+        setYear(year){
+            if(year>9999){
+                alert('nhap sai roi')
+            }
+            else this.year=year;
+        }
+        getQuantity(){
+            return this.quantity;
+        }
+        setQuantity(quantity){
+            this.quantity=quantity;
+        }
+        getStatus(){
+            return this.status;
+        }
+        setStatus(){
+            if (this.quantity>0){
+                return true
+            }
+            return  false
+        }
+    }
+        let book1 = new Book(12345,"Toán",2000,3,true);
+        let book2 = new Book(23456,"Văn",1998,4,true);
+        let book3 = new Book(37456,"Tiếng anh",1999,5,false);
+        let arrBook=[book1,book2,book3];
+        function display(){
+            let table = "<table style='border: 1px solid #1f1d1a' border='1px solid' cellpadding='5px'> "+
+                "<tr>"+
+                "<th>Mã số sách</th>"+
+                "<th>Tên sách</th>" +
+                "<th>Năm xuất bản</th>"+
+                "<th>Số quyển</th>"+
+                "<th>Tình trạng</th>"+
+                "</tr>";
+            
+            for (let i = 0; i < arrBook.length; i++) {
+                table+= "<tr>" +
+                    "<td>" + arrBook[i].getIdBook() + "</td>" +
+                    "<td>" + arrBook[i].getNameBook() + "</td>" +
+                    "<td>" + arrBook[i].getYear() + "</td>" +
+                    "<td>" + arrBook[i].getQuantity() + "</td>" +
+                    "<td>" + arrBook[i].getStatus() + "</td>" +
+                    "</tr>";
+            }
+
+            table += "</table>";
+            document.getElementById("display").innerHTML = table;
+        }
+        display();
+        
+        function themSach() {
+            let id = parseInt(prompt("Nhap Id sach da co muon them vao"));
+            for(let i=0;i<arrBook.length;i++){
+                if(arrBook[i].getIdBook() == id){
+                    let quantity = parseInt(prompt("Nhap so luong sach muon them"));
+                    arrBook[i].setQuantity(arrBook[i].getQuantity()+quantity);
+                }
+            }
+            display();
+        }
+        
+        function themSachMoi() {
+            let arrId=[];
+            let id
+            do {
+                id = (prompt('Nhập id sách'));
+                arrId = id.split('');
+            }
+            while (arrId[0]>5||arrId.length>5)
+        }
+
+        
+
+</script>

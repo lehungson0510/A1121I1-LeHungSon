@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let check=true;
+    let index=parseInt(prompt('nhap so phan tu cua mang'));
+    let a=[];
+    for(let i=0; i<index;i++){
+        a[i]=parseInt(prompt('nhap a['+i+']'));
+    }
+    while(check==true){
+        check=false;
+        for (let i=0;i<a.length;i++){
+            if(a[i]>a[i+1]){
+                check=true;
+                let temp=a[i+1];
+                a[i+1]=a[i];
+                a[i]=temp;
+            }
+        }
+    }
+    document.write(a)
+
+</script>
