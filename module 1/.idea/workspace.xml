@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fab6a97-81ef-4476-b611-859265c1872d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Module02" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/th- Sử dụng vòng lặp lồng nhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/th- Sử dụng vòng lặp lồng nhau-tạo bảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 02/bài 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/bt-Luyện tập cấu trúc điều kiện 02/bài 9-Điều kiện tam giác.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +169,9 @@
       <workItem from="1644957302147" duration="379000" />
       <workItem from="1644977989291" duration="613000" />
       <workItem from="1644981992998" duration="20434000" />
+      <workItem from="1645203823288" duration="7000" />
+      <workItem from="1645501129202" duration="4000" />
+      <workItem from="1645620395239" duration="864000" />
     </task>
     <servers />
   </component>
